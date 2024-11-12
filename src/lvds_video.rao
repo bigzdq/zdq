@@ -1,0 +1,283 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="rx_sclk" trig_type="0" storage_depth="8192" window_num="1" capture_amount="8192" implementation="0" trigger_pos="0" module_name="lvds_video_top" force_trigger_by_falling_edge="false" capture_init_data_enabled="false">
+        <SignalList>
+            <Signal capture_enable="true">u1/r_Vsync_0</Signal>
+            <Signal capture_enable="true">u1/r_Hsync_0</Signal>
+            <Signal capture_enable="true">u1/r_DE_0</Signal>
+            <Bus capture_enable="true" name="u1/R[7:0]">
+                <Signal>u1/R[7]</Signal>
+                <Signal>u1/R[6]</Signal>
+                <Signal>u1/R[5]</Signal>
+                <Signal>u1/R[4]</Signal>
+                <Signal>u1/R[3]</Signal>
+                <Signal>u1/R[2]</Signal>
+                <Signal>u1/R[1]</Signal>
+                <Signal>u1/R[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/G[7:0]">
+                <Signal>u1/G[7]</Signal>
+                <Signal>u1/G[6]</Signal>
+                <Signal>u1/G[5]</Signal>
+                <Signal>u1/G[4]</Signal>
+                <Signal>u1/G[3]</Signal>
+                <Signal>u1/G[2]</Signal>
+                <Signal>u1/G[1]</Signal>
+                <Signal>u1/G[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/B[7:0]">
+                <Signal>u1/B[7]</Signal>
+                <Signal>u1/B[6]</Signal>
+                <Signal>u1/B[5]</Signal>
+                <Signal>u1/B[4]</Signal>
+                <Signal>u1/B[3]</Signal>
+                <Signal>u1/B[2]</Signal>
+                <Signal>u1/B[1]</Signal>
+                <Signal>u1/B[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/wtdina_wire[15:0]">
+                <Signal>u1/wtdina_wire[15]</Signal>
+                <Signal>u1/wtdina_wire[14]</Signal>
+                <Signal>u1/wtdina_wire[13]</Signal>
+                <Signal>u1/wtdina_wire[12]</Signal>
+                <Signal>u1/wtdina_wire[11]</Signal>
+                <Signal>u1/wtdina_wire[10]</Signal>
+                <Signal>u1/wtdina_wire[9]</Signal>
+                <Signal>u1/wtdina_wire[8]</Signal>
+                <Signal>u1/wtdina_wire[7]</Signal>
+                <Signal>u1/wtdina_wire[6]</Signal>
+                <Signal>u1/wtdina_wire[5]</Signal>
+                <Signal>u1/wtdina_wire[4]</Signal>
+                <Signal>u1/wtdina_wire[3]</Signal>
+                <Signal>u1/wtdina_wire[2]</Signal>
+                <Signal>u1/wtdina_wire[1]</Signal>
+                <Signal>u1/wtdina_wire[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/wtaddr_wire[9:0]">
+                <Signal>u1/wtaddr_wire[9]</Signal>
+                <Signal>u1/wtaddr_wire[8]</Signal>
+                <Signal>u1/wtaddr_wire[7]</Signal>
+                <Signal>u1/wtaddr_wire[6]</Signal>
+                <Signal>u1/wtaddr_wire[5]</Signal>
+                <Signal>u1/wtaddr_wire[4]</Signal>
+                <Signal>u1/wtaddr_wire[3]</Signal>
+                <Signal>u1/wtaddr_wire[2]</Signal>
+                <Signal>u1/wtaddr_wire[1]</Signal>
+                <Signal>u1/wtaddr_wire[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/current_gray[7:0]">
+                <Signal>u1/current_gray[7]</Signal>
+                <Signal>u1/current_gray[6]</Signal>
+                <Signal>u1/current_gray[5]</Signal>
+                <Signal>u1/current_gray[4]</Signal>
+                <Signal>u1/current_gray[3]</Signal>
+                <Signal>u1/current_gray[2]</Signal>
+                <Signal>u1/current_gray[1]</Signal>
+                <Signal>u1/current_gray[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/max_gray_r[15:0]">
+                <Signal>u1/max_gray_r[15]</Signal>
+                <Signal>u1/max_gray_r[14]</Signal>
+                <Signal>u1/max_gray_r[13]</Signal>
+                <Signal>u1/max_gray_r[12]</Signal>
+                <Signal>u1/max_gray_r[11]</Signal>
+                <Signal>u1/max_gray_r[10]</Signal>
+                <Signal>u1/max_gray_r[9]</Signal>
+                <Signal>u1/max_gray_r[8]</Signal>
+                <Signal>u1/max_gray_r[7]</Signal>
+                <Signal>u1/max_gray_r[6]</Signal>
+                <Signal>u1/max_gray_r[5]</Signal>
+                <Signal>u1/max_gray_r[4]</Signal>
+                <Signal>u1/max_gray_r[3]</Signal>
+                <Signal>u1/max_gray_r[2]</Signal>
+                <Signal>u1/max_gray_r[1]</Signal>
+                <Signal>u1/max_gray_r[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/row_pixels[11:0]">
+                <Signal>u1/row_pixels[11]</Signal>
+                <Signal>u1/row_pixels[10]</Signal>
+                <Signal>u1/row_pixels[9]</Signal>
+                <Signal>u1/row_pixels[8]</Signal>
+                <Signal>u1/row_pixels[7]</Signal>
+                <Signal>u1/row_pixels[6]</Signal>
+                <Signal>u1/row_pixels[5]</Signal>
+                <Signal>u1/row_pixels[4]</Signal>
+                <Signal>u1/row_pixels[3]</Signal>
+                <Signal>u1/row_pixels[2]</Signal>
+                <Signal>u1/row_pixels[1]</Signal>
+                <Signal>u1/row_pixels[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/line_pixels[10:0]">
+                <Signal>u1/line_pixels[10]</Signal>
+                <Signal>u1/line_pixels[9]</Signal>
+                <Signal>u1/line_pixels[8]</Signal>
+                <Signal>u1/line_pixels[7]</Signal>
+                <Signal>u1/line_pixels[6]</Signal>
+                <Signal>u1/line_pixels[5]</Signal>
+                <Signal>u1/line_pixels[4]</Signal>
+                <Signal>u1/line_pixels[3]</Signal>
+                <Signal>u1/line_pixels[2]</Signal>
+                <Signal>u1/line_pixels[1]</Signal>
+                <Signal>u1/line_pixels[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/line_pixels_f[9:0]">
+                <Signal>u1/line_pixels_f[9]</Signal>
+                <Signal>u1/line_pixels_f[8]</Signal>
+                <Signal>u1/line_pixels_f[7]</Signal>
+                <Signal>u1/line_pixels_f[6]</Signal>
+                <Signal>u1/line_pixels_f[5]</Signal>
+                <Signal>u1/line_pixels_f[4]</Signal>
+                <Signal>u1/line_pixels_f[3]</Signal>
+                <Signal>u1/line_pixels_f[2]</Signal>
+                <Signal>u1/line_pixels_f[1]</Signal>
+                <Signal>u1/line_pixels_f[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/count_edge[5:0]">
+                <Signal>u1/count_edge[5]</Signal>
+                <Signal>u1/count_edge[4]</Signal>
+                <Signal>u1/count_edge[3]</Signal>
+                <Signal>u1/count_edge[2]</Signal>
+                <Signal>u1/count_edge[1]</Signal>
+                <Signal>u1/count_edge[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/count_edge_l[5:0]">
+                <Signal>u1/count_edge_l[5]</Signal>
+                <Signal>u1/count_edge_l[4]</Signal>
+                <Signal>u1/count_edge_l[3]</Signal>
+                <Signal>u1/count_edge_l[2]</Signal>
+                <Signal>u1/count_edge_l[1]</Signal>
+                <Signal>u1/count_edge_l[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/wtdina_fifo[15:0]">
+                <Signal>u1/wtdina_fifo[15]</Signal>
+                <Signal>u1/wtdina_fifo[14]</Signal>
+                <Signal>u1/wtdina_fifo[13]</Signal>
+                <Signal>u1/wtdina_fifo[12]</Signal>
+                <Signal>u1/wtdina_fifo[11]</Signal>
+                <Signal>u1/wtdina_fifo[10]</Signal>
+                <Signal>u1/wtdina_fifo[9]</Signal>
+                <Signal>u1/wtdina_fifo[8]</Signal>
+                <Signal>u1/wtdina_fifo[7]</Signal>
+                <Signal>u1/wtdina_fifo[6]</Signal>
+                <Signal>u1/wtdina_fifo[5]</Signal>
+                <Signal>u1/wtdina_fifo[4]</Signal>
+                <Signal>u1/wtdina_fifo[3]</Signal>
+                <Signal>u1/wtdina_fifo[2]</Signal>
+                <Signal>u1/wtdina_fifo[1]</Signal>
+                <Signal>u1/wtdina_fifo[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/cnt_test1[7:0]">
+                <Signal>u1/cnt_test1[7]</Signal>
+                <Signal>u1/cnt_test1[6]</Signal>
+                <Signal>u1/cnt_test1[5]</Signal>
+                <Signal>u1/cnt_test1[4]</Signal>
+                <Signal>u1/cnt_test1[3]</Signal>
+                <Signal>u1/cnt_test1[2]</Signal>
+                <Signal>u1/cnt_test1[1]</Signal>
+                <Signal>u1/cnt_test1[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/cnt_test2[7:0]">
+                <Signal>u1/cnt_test2[7]</Signal>
+                <Signal>u1/cnt_test2[6]</Signal>
+                <Signal>u1/cnt_test2[5]</Signal>
+                <Signal>u1/cnt_test2[4]</Signal>
+                <Signal>u1/cnt_test2[3]</Signal>
+                <Signal>u1/cnt_test2[2]</Signal>
+                <Signal>u1/cnt_test2[1]</Signal>
+                <Signal>u1/cnt_test2[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/max_gray_t[15:0]">
+                <Signal>u1/max_gray_t[15]</Signal>
+                <Signal>u1/max_gray_t[14]</Signal>
+                <Signal>u1/max_gray_t[13]</Signal>
+                <Signal>u1/max_gray_t[12]</Signal>
+                <Signal>u1/max_gray_t[11]</Signal>
+                <Signal>u1/max_gray_t[10]</Signal>
+                <Signal>u1/max_gray_t[9]</Signal>
+                <Signal>u1/max_gray_t[8]</Signal>
+                <Signal>u1/max_gray_t[7]</Signal>
+                <Signal>u1/max_gray_t[6]</Signal>
+                <Signal>u1/max_gray_t[5]</Signal>
+                <Signal>u1/max_gray_t[4]</Signal>
+                <Signal>u1/max_gray_t[3]</Signal>
+                <Signal>u1/max_gray_t[2]</Signal>
+                <Signal>u1/max_gray_t[1]</Signal>
+                <Signal>u1/max_gray_t[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/max_gray_r_fifo_out[15:0]">
+                <Signal>u1/max_gray_r_fifo_out[15]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[14]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[13]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[12]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[11]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[10]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[9]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[8]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[7]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[6]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[5]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[4]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[3]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[2]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[1]</Signal>
+                <Signal>u1/max_gray_r_fifo_out[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">u1/valid_r</Signal>
+            <Signal capture_enable="true">u1/valid_g</Signal>
+            <Signal capture_enable="true">u1/fifo_gray_valid</Signal>
+            <Signal capture_enable="true">u1/WrEn</Signal>
+            <Signal capture_enable="true">u1/RdEn</Signal>
+            <Signal capture_enable="true">u1/Full</Signal>
+            <Signal capture_enable="true">u1/Empty</Signal>
+            <Signal capture_enable="true">u1/RdEn_r</Signal>
+            <Signal capture_enable="true">u1/Full_r</Signal>
+            <Signal capture_enable="true">u1/Empty_r</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>sdbpflag</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="R" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>1001001010111110</GAO_ID>
+</GAO_CONFIG>
